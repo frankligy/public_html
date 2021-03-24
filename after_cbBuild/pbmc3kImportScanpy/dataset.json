@@ -1,0 +1,308 @@
+{
+  "fileVersions": {
+    "inMeta": {
+      "fname": "/Users/ligk2e/Desktop/scTriangulate/cb/pbmc3kImportScanpy/meta.tsv",
+      "md5": "4110d354ea",
+      "size": 124048,
+      "mtime": "2021-03-09 03:28:41"
+    },
+    "outMeta": {
+      "fname": "../after_cbBuild/pbmc3kImportScanpy/meta.tsv",
+      "md5": "4110d354ea",
+      "size": 124048,
+      "mtime": "2021-03-24 04:11:54"
+    },
+    "inMatrix": {
+      "fname": "/Users/ligk2e/Desktop/scTriangulate/cb/pbmc3kImportScanpy/exprMatrix.tsv.gz",
+      "md5": "6fd491c73d",
+      "size": 11200262,
+      "mtime": "2021-03-09 03:28:35"
+    },
+    "outMatrix": {
+      "fname": "../after_cbBuild/pbmc3kImportScanpy/exprMatrix.tsv.gz",
+      "md5": "6fd491c73d",
+      "size": 11200262,
+      "mtime": "2021-03-24 04:11:54"
+    },
+    "desc": {
+      "fname": "desc.conf",
+      "md5": "dd3414fafc",
+      "size": 2635,
+      "mtime": "2021-03-09 03:28:41"
+    },
+    "conf": {
+      "fname": "/Users/ligk2e/Desktop/scTriangulate/cb/pbmc3kImportScanpy/cellbrowser.conf",
+      "md5": "6cc6dff572",
+      "size": 811,
+      "mtime": "2021-03-09 03:28:41"
+    }
+  },
+  "sampleCount": 2638,
+  "matrixWasFiltered": false,
+  "metaFields": [
+    {
+      "name": "cellId",
+      "label": "cellId",
+      "type": "uniqueString",
+      "maxSize": 16,
+      "diffValCount": 2638,
+      "md5": "1b085a73ff"
+    },
+    {
+      "name": "n_genes_by_counts",
+      "label": "n_genes_by_counts",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 935,
+      "md5": "1373e6bde3"
+    },
+    {
+      "name": "total_counts",
+      "label": "total_counts",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 1769,
+      "md5": "fa847d7c99"
+    },
+    {
+      "name": "total_counts_mt",
+      "label": "total_counts_mt",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 169,
+      "md5": "c0f16c5ba6"
+    },
+    {
+      "name": "pct_counts_mt",
+      "label": "pct_counts_mt",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 2547,
+      "md5": "831e3548b8"
+    },
+    {
+      "name": "leiden",
+      "label": "leiden",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 9,
+      "md5": "3b6c6247fc"
+    },
+    {
+      "name": "celltype",
+      "label": "celltype",
+      "type": "enum",
+      "valCounts": [
+        [
+          "0",
+          957
+        ],
+        [
+          "1",
+          470
+        ],
+        [
+          "2",
+          349
+        ],
+        [
+          "3",
+          310
+        ],
+        [
+          "4",
+          187
+        ],
+        [
+          "5",
+          171
+        ],
+        [
+          "6",
+          152
+        ],
+        [
+          "7",
+          29
+        ],
+        [
+          "8",
+          13
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 9,
+      "md5": "45aff80c47"
+    }
+  ],
+  "matrixArrType": "Float32",
+  "labelField": "celltype",
+  "coords": [
+    {
+      "name": "coords_0",
+      "shortLabel": "pca",
+      "md5": "9e9cda3ba5",
+      "minX": 0,
+      "maxX": 65534,
+      "minY": 0,
+      "maxY": 65535,
+      "type": "Uint16",
+      "labelMd5": "d41d8cd98f"
+    },
+    {
+      "name": "coords_1",
+      "shortLabel": "UMAP",
+      "md5": "1b9e47ead7",
+      "minX": 0,
+      "maxX": 65535,
+      "minY": 0,
+      "maxY": 65535,
+      "type": "Uint16",
+      "labelMd5": "d41d8cd98f"
+    }
+  ],
+  "hasFiles": [
+    "datasetDesc"
+  ],
+  "topMarkers": {
+    "0": [
+      "LDHB",
+      "CD3D",
+      "LTB",
+      "RPS12",
+      "RPS25"
+    ],
+    "1": [
+      "LYZ",
+      "TYROBP",
+      "FTL",
+      "CST3",
+      "S100A9"
+    ],
+    "2": [
+      "CD74",
+      "HLA-DRA",
+      "HLA-DPB1",
+      "CD79A",
+      "HLA-DRB1"
+    ],
+    "3": [
+      "CCL5",
+      "NKG7",
+      "IL32",
+      "B2M",
+      "GZMA"
+    ],
+    "4": [
+      "CD8B",
+      "RPS12",
+      "RPL9",
+      "RPS27",
+      "RPLP2"
+    ],
+    "5": [
+      "LST1",
+      "AIF1",
+      "FTH1",
+      "FTL",
+      "FCER1G"
+    ],
+    "6": [
+      "NKG7",
+      "GNLY",
+      "CTSW",
+      "GZMB",
+      "PRF1"
+    ],
+    "7": [
+      "HLA-DRA",
+      "HLA-DPA1",
+      "CD74",
+      "HLA-DPB1",
+      "LSP1"
+    ],
+    "8": [
+      "GPX1",
+      "PF4",
+      "PPBP",
+      "CALM3",
+      "NRGN"
+    ]
+  },
+  "markers": [
+    {
+      "name": "markers_0",
+      "shortLabel": "Cluster Markers"
+    }
+  ],
+  "quickGenes": [
+    [
+      "LDHB",
+      "0"
+    ],
+    [
+      "CD3D",
+      "0"
+    ],
+    [
+      "LYZ",
+      "1"
+    ],
+    [
+      "TYROBP",
+      "1"
+    ],
+    [
+      "CD74",
+      "2"
+    ],
+    [
+      "HLA-DRA",
+      "2, 7"
+    ],
+    [
+      "CCL5",
+      "3"
+    ],
+    [
+      "NKG7",
+      "3, 6"
+    ],
+    [
+      "CD8B",
+      "4"
+    ],
+    [
+      "RPS12",
+      "4"
+    ],
+    [
+      "LST1",
+      "5"
+    ],
+    [
+      "AIF1",
+      "5"
+    ],
+    [
+      "GNLY",
+      "6"
+    ],
+    [
+      "HLA-DPA1",
+      "7"
+    ],
+    [
+      "GPX1",
+      "8"
+    ],
+    [
+      "PF4",
+      "8"
+    ]
+  ],
+  "name": "pbmc3kImportScanpy",
+  "shortLabel": "pbmc3kImportScanpy",
+  "defColorField": "celltype",
+  "md5": "0252116338"
+}
